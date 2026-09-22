@@ -56,5 +56,11 @@ namespace fe_0302.Controllers
 
             return View();
         }
+        public ActionResult Vd1()
+        {
+            ViewBag.Message = "Your contact page.";
+
+            return View();
+        }
     }
 }
