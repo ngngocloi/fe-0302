@@ -1,0 +1,41 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+        <title>@ViewBag.Title</title>
+            <style>
+                    #top-banner{
+                                width:100%;
+                                            height:80%;
+                                                        background-color:yellowgreen;
+                                                                }
+                                                                        #main-content{
+                                                                                    width:100%;
+                                                                                                height:auto;
+                                                                                                        }
+                                                                                                                #footer{
+                                                                                                                            width:100%;
+                                                                                                                                        height:80px;
+                                                                                                                                                    background-color:antiquewhite;
+                                                                                                                                                            }
+                                                                                                                                                                </style>
+                                                                                                                                                                </head>
+                                                                                                                                                                <body>
+                                                                                                                                                                    <div id="top-banner">
+                                                                                                                                                                            <div id="left-banner"></div>
+                                                                                                                                                                                    <div id="right-banner"></div>
+                                                                                                                                                                                        </div>
+                                                                                                                                                                                            <div id="main-content">
+                                                                                                                                                                                                    <div id="left-content"></div>
+
+                                                                                                                                                                                                            <div id="right-content">
+                                                                                                                                                                                                                        @RenderBody()
+                                                                                                                                                                                                                                </div>
+                                                                                                                                                                                                                                    </div>
+                                                                                                                                                                                                                                        <div id="footer">
+
+                                                                                                                                                                                                                                            </div>
+                                                                                                                                                                                                                                            </body>
+                                                                                                                                                                                                                                            </html>
+                                                                                                                                                                                                                                        

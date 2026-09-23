@@ -62,5 +62,9 @@ namespace fe_0302.Controllers
 
             return View();
         }
+        public ActionResult Products(){
+            ViewBag.Message = "Hi";
+            return View();
+        }
     }
 }
